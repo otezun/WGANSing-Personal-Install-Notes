@@ -1,4 +1,4 @@
-# WGANSing-Install-Tutorial
+# Personal Notes concerning WGANSing
 
 Word of Warning: I have no idea what I'm doing here. I am also in no way affiliated with WGANSing. 
 
