@@ -37,5 +37,5 @@ It should now train the model data using 500-1000 epochs. There may be crashes. 
 This is how far I have got so far.
 
 # Other comments
-It would be nice if WGANSing were to be updated to TensorFlow 2. There is a pull request for exactly that purpose at https://github.com/MTG/WGANSing/pull/26. There is also no mention on how to create the .lab file necessary to get a nice sound file from WGANSing, nor how the data inside the .lab file should be structured.
+It would be nice if WGANSing were to be updated to TensorFlow 2. There is a pull request for exactly that purpose at https://github.com/MTG/WGANSing/pull/26. There is also no mention on how to create the .lab file necessary to get a nice sound file from WGANSing, nor how the data inside the .lab file should be structured (what are the inputs and outputs of WGANSing?).
 Finally there would be some nice potential here if there were a GUI similar to that one of RealTimeVoiceCloning (https://github.com/CorentinJ/Real-Time-Voice-Cloning). 
