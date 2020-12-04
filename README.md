@@ -44,3 +44,8 @@ This will take the sung voice of ZHIY (male voice) and translate it into MPOL (f
 It will now write the file to disk. We can also synthesize the ground truth using vocoder.
 # Other comments
 Currently it seems that WGANSing is in the process of updating to TensorFlow 2. The most important issues are listed here: https://github.com/MTG/WGANSing/issues/19
+Small TODO list for making this thing easier to work with:
+- Update requirements.txt 
+- Create directories automatically from config.py using os.environ or similar
+- Change the assert function in line 130 of data_pipieline.py for example wrapping it in a try/except block to avoid critical failure
+Since it requires a .hdf5 file, to use other voices in this you'd have to make recordings and label them, for example using Praat (https://www.fon.hum.uva.nl/praat/), as to encode them as .hdf5 file, which can then be used in the WGANSing NN.
