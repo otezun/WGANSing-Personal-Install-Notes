@@ -11,7 +11,7 @@ The NUS-48E dataset can be downloaded from here. Once downloaded, please change 
 
 # Hardware Requirements
 I recommend a good GPU with CUDA support, personally I use a MSI GTX 1660 Armor OC with a Ryzen 5 3600 and 64 GB of RAM - slightly overclocked.
-OBVIOUSLY, you will need the NVIDIA drivers to run TensorFlow with CUDA.
+OBVIOUSLY, you will need the NVIDIA drivers to run TensorFlow with CUDA. It took more than 12 hours to train it on the nus dataset with this setup.
 
 # Basic Setup
 This is Windows only at the moment. You will need Anaconda (https://www.anaconda.com/). 
