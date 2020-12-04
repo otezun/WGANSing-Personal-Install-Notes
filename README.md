@@ -41,6 +41,6 @@ Update: It now has trained the model, taking more than 12 hours (I don't know th
 From the line "Currently only supporting hdf5 files which are in the dataset, will be expanded later" we can figure out that we need a .hdf5 instead. 
 `python main.py -e nus_ZHIY_sing_06.hdf5 MPOL`
 This will take the sung voice of ZHIY (male voice) and translate it into MPOL (female voice). Then it will display a beautiful graph which you can technically save, although I don't remember where I saved it to. It will then ask to synthesize the output, which we answer with a solid Y(es).
-It will now write the file to disk. We can also synthesize the ground truth using vocoder, giving the thing better quality.
+It will now write the file to disk. We can also synthesize the ground truth using vocoder.
 # Other comments
 Currently it seems that WGANSing is in the process of updating to TensorFlow 2. The most important issues are listed here: https://github.com/MTG/WGANSing/issues/19
